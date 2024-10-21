@@ -1,0 +1,117 @@
+====================================================
+#      16-10-2024
+====================================================
+ - kehadiran 7 hari keblakang
+ - string jam n tanggal  2 digit
+ - ios 
+
+====================================================
+#      02-10-2024
+====================================================
+- Title, Label 'VIL GROUP iSMILE" | OK
+- icon - iSMILE | x
+- Fake GPS | OK
+- koordinat dihilangkan ganti jam | OK
+- marker lokasi kerja | OK
+- Repeat -> btn pulang | OK 
+- Double insert | OK - Bugs Fixed
+- info  | 
+Update
+- smile | update half smile
+
+
+
+====================================================
+#   ,   19-09-2024
+====================================================
+- Check Absen current date / status absen | OK
+- Check btn Pulang, sblm btn masuk | OK
+- Absen,  Send img capture - write to dbase | OK
+- History presensi current month | OK
+- Lokasi default absensi | OK 
+     tb:  
+        hrm_account_location_absensi.account_serial
+        hrm_mesin_absensi.lat
+
+
+
+
+====================================================
+#  Selasa,  03-09-2024
+====================================================
+- Price list Android 14 | OK
+- MAP ( create script get Var API_GMAPS) | OK
+
+com.vil.presensi
+
+====================================================
+# Kamis, 22-08-2024
+====================================================
+- Prepare Pricelist Installed SDK Android 14 | OK
+- Validasi by imei | OK
+- Indikator Warna Putih ( Camera Ready ) | OK
+- Indikator Warna Merah ( !Face_width, !Face_center  ) | OK
+- Indikator Warna Kuning ( Face width )| OK
+- Indikator Warna Kuning (Face on center Screen) |  Tab / Ponsel  |  [ ?? ] 
+- Indikator Warna Hijau ( Process Recognize ) | OK
+- Result Recognize / Icon gagal recogize | OK  
+
+
+====================================================
+# Senin, 22-07-2024
+====================================================
+- icon launcher | OK
+- splash screen | OK
+- insert imei, status '00' | OK
+- config gradle | OK 
+- field: cabang_serial = hrm_account_location_absensi.mesin_lokasi_serial | X
+- Tambah History 3 Hr keblakang | X
+- Validasi by imei | X
+
+
+====================================================
+# Kamis, 11-07-2024
+====================================================
+- Insert pic  captured | OK
+- status  = 00 
+- Tambah History 3 Hr keblakang
+- user agen => Hp info
+- field: cabang_serial = hrm_account_location_absensi.mesin_lokasi_serial  
+    
+====================================================
+# Kamis, 27-06-2024
+====================================================
+- Tambah History 3 Hr keblakang
+- Lokasi Kerja tidak perlu di pilih | OK
+- radius 12M dr lokasi kerja | OK
+- insert dbase checkin / checkout
+
+
+====================================================
+# Rabu, 12-06-2024
+====================================================
+
+ - presensi ( write to dBase ) : ?
+    ::DB::
+    e-vkool:
+	    _view_accounts_vkool_internal_iamvkool -> tb karyawan
+
+    e-vkool-internal : 
+        hrm_absensi_e -> absensi
+        hrm_absensi_req_outsite                     -> skedul
+        hrm_mesin_absensi -> lokasi kerja
+        hrm_account_location_absensi -> lokasi default user/karywan
+
+====================================================
+# Kamis, 30-05-2024
+====================================================
+- face recognize: OK
+
+- service face recognize
+    - Local Development : OK
+    - Server Development : OK
+    - Server Production : OK
+
+- google map : ? (NONE)
+- shift : ? (NONE)
+ 

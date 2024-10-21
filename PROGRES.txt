@@ -1,0 +1,12 @@
+====================================================
+# Senin, 24-06-2024
+==================================================== 
+ - get latlong devices  |   OK
+ - get lokasi kerja [lok1, lok2, lok3]   |   OK
+ - count distance to lokasi kerja   |   OK  
+    DON:: imei e27539ea5aa01429
+
+ !D/, !V/, !I/V, !I/I, !I/S,  
+
+Gradle change
+ https://docs.flutter.dev/release/breaking-changes/flutter-gradle-plugin-apply#androidsettings-gradle
